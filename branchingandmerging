@@ -1,0 +1,48 @@
+Clone Repository
+git clone <your-repo-url>
+cd gitk8s
+
+Note: Copy repo
+--------------------------------------------
+Git Remote
+
+git remote -v
+git remote add origin <repo-url> --> (if not exists)
+git remote remove origin
+git remote show origin
+
+Note: origin = default remote name
+      Manage repo connection
+---------------------------------------------------      
+      
+Push Code to Remote
+git push -u origin main
+
+Git Workflow (Branching & Merging)
+Create Feature Branch
+git checkout -b k8s_demo_ubuntu
+git add .
+git commit -m "ubuntu pod yaml"
+git push -u origin k8s_demo_ubuntu
+
+Switch to Main & Sync
+git checkout main
+git pull origin main
+
+Note:Push and Pull sycn local and remote
+-----------------------------------------------
+
+Merge Feature Branch
+git merge k8s_demo_ubuntu
+git push origin main
+------------------------------------------------
+
+Delete Branch
+git branch -d k8s_demo_ubuntu (local)
+git push origin --delete k8s_demo_ubuntu (branch)
+---------------------------------------------------
+
+Useful Commands
+git status
+git log --oneline --graph
+git branch
