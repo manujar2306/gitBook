@@ -1,0 +1,29 @@
+Git Basics – Purpose & Differences
+--------------------------------------
+
+--> Purpose of Git
+Git is a version control system used to track changes in code.
+
+--> Why Git?
+Track changes in files 
+Work on multiple features using branches 
+Collaborate with team members 
+Restore previous versions if needed 
+Manage project history efficiently
+
+--> What is Git?
+Git is a distributed version control system (DVCS)
+
+--> Works locally on your system
+Does not require internet for most operations
+Stores complete project history
+
+--> What is GitHub?
+GitHub is a cloud platform that hosts Git repositories
+Used to store code online
+Enables collaboration and sharing
+
+--> Provides features like:
+Pull requests
+Code review
+CI/CD integration
